@@ -1,0 +1,144 @@
+.service-grid {
+    background: #fcfcfc;
+  }
+   .service-title h4 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-icon {
+    position: relative;
+  }
+  .service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  .about-info-text h2 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+  }
+  .about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+      position: relative;
+  }
+  .about-content p {
+    margin-bottom: 0;
+  }
+  .about-info-text a {
+    margin-bottom: 20px;
+      position: relative;
+  }
+  .service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .service-wrap {
+    background-color: #e8f5e9; /* Light green background */
+    border: 1px solid #4caf50; /* Green border */
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .service-wrap:hover {
+    background-color: #c8e6c9; /* Slightly darker green on hover */
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2); /* Green shadow on hover */
+  }
+  .service-icon {
+    color: #4caf50; /* Green icon color */
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .service-wrap h4 {
+    color: #2e7d32; /* Dark green text for headings */
+    margin-bottom: 10px;
+  }
+  .service-wrap p {
+    color: #1b5e20; /* Darker green text for paragraphs */
+  }
+  .service-wrap a {
+    color: #00c853; /* Bright green for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .service-wrap a:hover {
+    text-decoration: underline;
+  }
+  .service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service-wrap p{
+      position: relative;
+  }
+  
+  .service-wrap:hover {
+    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  
+  .service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+  }
+  
+  .service-wrap:hover h4,.service-wrap:hover p{
+    color: #fff;
+  }
+  .service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+  
+  }
+  
+  .read-more-btn {
+      background-color: #007bff; /* Blue background */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Remove or comment out the previous styles for the 'a' tag if they exist */
+  /*
+  .service-wrap a {
+      color: #00c853;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .service-wrap a:hover {
+      text-decoration: underline;
+  }
+  */
+  
